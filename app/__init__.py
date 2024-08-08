@@ -15,3 +15,6 @@ async def echo():
 @app.get("/example")
 async def example():
     return jsonify(["a", "b"])
+
+if __name__ == "__main__":
+    app.run()
